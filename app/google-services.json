@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "782916195022",
+    "firebase_url": "https://cogitive-vison.firebaseio.com",
+    "project_id": "cogitive-vison",
+    "storage_bucket": "cogitive-vison.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782916195022:android:668d937e5aa89a26",
+        "android_client_info": {
+          "package_name": "br.com.brunoscrokbrunoro.cognitivevision"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "782916195022-aeepu6j1ltuab3l85vbg4d7amd5ttpgo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVr-JmVHfdRvQtTDUW9Yy4PsHKW_7K-9o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
