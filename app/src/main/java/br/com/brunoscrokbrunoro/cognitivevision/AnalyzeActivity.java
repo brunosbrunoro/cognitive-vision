@@ -228,6 +228,8 @@ public class AnalyzeActivity extends AppCompatActivity {
                         resultFirebase.put("captions",captions);
 
                        resultFirebase.put("tags", result.description.tags);
+                        lilTags.setVisibility(View.VISIBLE);
+                        txtTags.setText("");
                         for (String tag : result.description.tags) {
                             txtTags.append(tag + "\n");
                         }
@@ -255,7 +257,7 @@ public class AnalyzeActivity extends AppCompatActivity {
                         HashMap<String, Object> faces = new HashMap<>();
                         int x = 0;
                         for (Face face : result.faces) {
-                            txtFaces.append("Sexo:" + (face.gender.equals("Male") ? "Masculino" : "Feminino") + ", Idade: " + +face.age + "(Confiança: " + df.format(100 * face.genderScore) + "%)\n");
+                            txtFaces.append("Sexo:" + face.gender+ ", Idade: " + +face.age + "(Confiança: " + df.format(100 * face.genderScore) + "%)\n");
                             faces.put(Integer.toString(x), ObjectToMap.face(face));
                             x++;
                         }
